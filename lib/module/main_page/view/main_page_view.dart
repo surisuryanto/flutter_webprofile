@@ -8,10 +8,10 @@ class MainPageView extends StatefulWidget {
   Widget build(context, MainPageController controller) {
     controller.view = this;
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("MainPage"),
-        actions: const [],
-      ),
+      // appBar: AppBar(
+      //   title: const Text("MainPage"),
+      //   actions: const [],
+      // ),
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.all(10.0),
